@@ -7,9 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		24C7969AA59EFC8FB400E9A3 /* Pods_BounceUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34F7F1EB32DE9386239A09ED /* Pods_BounceUITests.framework */; };
+		2A487BA0A6BC00C8D45BCBCD /* Pods_BounceTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBF671314DDC3E5A9618DBE4 /* Pods_BounceTests.framework */; };
+		681FF9812010554200D94304 /* SplashScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 681FF9802010554200D94304 /* SplashScreen.swift */; };
+		681FF983201153E300D94304 /* Bonuses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 681FF982201153E300D94304 /* Bonuses.swift */; };
+		6824A488201BF05B001AD3D8 /* bonus2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6824A487201BF05B001AD3D8 /* bonus2.mp3 */; };
+		68341040201A76DE004FE3B1 /* How.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6834103F201A76DE004FE3B1 /* How.swift */; };
+		68341042201AF8EE004FE3B1 /* bonus.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 68341041201AF8EE004FE3B1 /* bonus.mp3 */; };
+		68BD40AB200E870200C8E2B3 /* Setting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68BD40AA200E870200C8E2B3 /* Setting.swift */; };
+		68BD40B1200E968300C8E2B3 /* fail.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 68BD40B0200E968300C8E2B3 /* fail.mp3 */; };
+		68BD40B3200E96C900C8E2B3 /* Begin.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 68BD40B2200E96C900C8E2B3 /* Begin.mp3 */; };
 		68C7F4FD20084D12005AE82E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68C7F4FC20084D12005AE82E /* AppDelegate.swift */; };
-		68C7F4FF20084D12005AE82E /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 68C7F4FE20084D12005AE82E /* GameScene.sks */; };
-		68C7F50120084D12005AE82E /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 68C7F50020084D12005AE82E /* Actions.sks */; };
 		68C7F50320084D12005AE82E /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68C7F50220084D12005AE82E /* GameScene.swift */; };
 		68C7F50520084D12005AE82E /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68C7F50420084D12005AE82E /* GameViewController.swift */; };
 		68C7F50820084D12005AE82E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68C7F50620084D12005AE82E /* Main.storyboard */; };
@@ -17,6 +25,13 @@
 		68C7F50D20084D12005AE82E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68C7F50B20084D12005AE82E /* LaunchScreen.storyboard */; };
 		68C7F51820084D12005AE82E /* BounceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68C7F51720084D12005AE82E /* BounceTests.swift */; };
 		68C7F52320084D12005AE82E /* BounceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68C7F52220084D12005AE82E /* BounceUITests.swift */; };
+		68C7F5A4200863B1005AE82E /*  UIColorExtention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68C7F5A3200863B1005AE82E /*  UIColorExtention.swift */; };
+		68C7F5A6200869D1005AE82E /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 68C7F5A5200869D1005AE82E /* GameScene.sks */; };
+		68C7F5B6200AAA5F005AE82E /* song.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 68C7F5B5200AAA5F005AE82E /* song.mp3 */; };
+		68C7F5BC200BAF4D005AE82E /* Song2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 68C7F5BB200BAF4D005AE82E /* Song2.mp3 */; };
+		68C7F5BE200BE131005AE82E /* PlayScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68C7F5BD200BE131005AE82E /* PlayScene.swift */; };
+		68C7F5C0200C1133005AE82E /* BlockStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68C7F5BF200C1133005AE82E /* BlockStatus.swift */; };
+		B3F4E2066E34EBD2C6471D6C /* Pods_Bounce.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CDED890148C9B970EE74B8C /* Pods_Bounce.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,10 +52,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		22A59C413A0E3634B4D25EED /* Pods-Bounce.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bounce.release.xcconfig"; path = "Pods/Target Support Files/Pods-Bounce/Pods-Bounce.release.xcconfig"; sourceTree = "<group>"; };
+		34F7F1EB32DE9386239A09ED /* Pods_BounceUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BounceUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3EC2267D5B535AFE07F99CCE /* Pods-BounceTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BounceTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BounceTests/Pods-BounceTests.debug.xcconfig"; sourceTree = "<group>"; };
+		439BEA9950E5A400BA476BF9 /* Pods-BounceUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BounceUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BounceUITests/Pods-BounceUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		681FF9802010554200D94304 /* SplashScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreen.swift; sourceTree = "<group>"; };
+		681FF982201153E300D94304 /* Bonuses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bonuses.swift; sourceTree = "<group>"; };
+		6824A487201BF05B001AD3D8 /* bonus2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bonus2.mp3; sourceTree = "<group>"; };
+		6834103F201A76DE004FE3B1 /* How.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = How.swift; sourceTree = "<group>"; };
+		68341041201AF8EE004FE3B1 /* bonus.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = bonus.mp3; path = ../../../bonus.mp3; sourceTree = "<group>"; };
+		68BD40AA200E870200C8E2B3 /* Setting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Setting.swift; sourceTree = "<group>"; };
+		68BD40B0200E968300C8E2B3 /* fail.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = fail.mp3; sourceTree = "<group>"; };
+		68BD40B2200E96C900C8E2B3 /* Begin.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Begin.mp3; sourceTree = "<group>"; };
 		68C7F4F920084D12005AE82E /* Bounce.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bounce.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		68C7F4FC20084D12005AE82E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		68C7F4FE20084D12005AE82E /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
-		68C7F50020084D12005AE82E /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
 		68C7F50220084D12005AE82E /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		68C7F50420084D12005AE82E /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		68C7F50720084D12005AE82E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -53,6 +78,17 @@
 		68C7F51E20084D12005AE82E /* BounceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BounceUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		68C7F52220084D12005AE82E /* BounceUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BounceUITests.swift; sourceTree = "<group>"; };
 		68C7F52420084D12005AE82E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		68C7F5A3200863B1005AE82E /*  UIColorExtention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = " UIColorExtention.swift"; sourceTree = "<group>"; };
+		68C7F5A5200869D1005AE82E /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		68C7F5B5200AAA5F005AE82E /* song.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = song.mp3; sourceTree = "<group>"; };
+		68C7F5BB200BAF4D005AE82E /* Song2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Song2.mp3; sourceTree = "<group>"; };
+		68C7F5BD200BE131005AE82E /* PlayScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayScene.swift; sourceTree = "<group>"; };
+		68C7F5BF200C1133005AE82E /* BlockStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlockStatus.swift; sourceTree = "<group>"; };
+		8CDED890148C9B970EE74B8C /* Pods_Bounce.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Bounce.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9013792FE6F8FB0F8BA94DBB /* Pods-Bounce.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bounce.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Bounce/Pods-Bounce.debug.xcconfig"; sourceTree = "<group>"; };
+		B0070F119ABEE99DE3B36F55 /* Pods-BounceTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BounceTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BounceTests/Pods-BounceTests.release.xcconfig"; sourceTree = "<group>"; };
+		D690F44620CE3CAB92F47975 /* Pods-BounceUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BounceUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BounceUITests/Pods-BounceUITests.release.xcconfig"; sourceTree = "<group>"; };
+		FBF671314DDC3E5A9618DBE4 /* Pods_BounceTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BounceTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +96,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B3F4E2066E34EBD2C6471D6C /* Pods_Bounce.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -67,6 +104,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2A487BA0A6BC00C8D45BCBCD /* Pods_BounceTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +112,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				24C7969AA59EFC8FB400E9A3 /* Pods_BounceUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -87,6 +126,8 @@
 				68C7F51620084D12005AE82E /* BounceTests */,
 				68C7F52120084D12005AE82E /* BounceUITests */,
 				68C7F4FA20084D12005AE82E /* Products */,
+				C18A0A2F831F7A6E92DCA1F6 /* Pods */,
+				DC12E0C037BD00CDF2DD66E6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -104,14 +145,21 @@
 			isa = PBXGroup;
 			children = (
 				68C7F4FC20084D12005AE82E /* AppDelegate.swift */,
-				68C7F4FE20084D12005AE82E /* GameScene.sks */,
-				68C7F50020084D12005AE82E /* Actions.sks */,
+				68C7F5A5200869D1005AE82E /* GameScene.sks */,
 				68C7F50220084D12005AE82E /* GameScene.swift */,
 				68C7F50420084D12005AE82E /* GameViewController.swift */,
 				68C7F50620084D12005AE82E /* Main.storyboard */,
 				68C7F50920084D12005AE82E /* Assets.xcassets */,
+				68C7F5B2200AA531005AE82E /* Audios */,
 				68C7F50B20084D12005AE82E /* LaunchScreen.storyboard */,
 				68C7F50E20084D12005AE82E /* Info.plist */,
+				68C7F5A3200863B1005AE82E /*  UIColorExtention.swift */,
+				68C7F5BD200BE131005AE82E /* PlayScene.swift */,
+				68C7F5BF200C1133005AE82E /* BlockStatus.swift */,
+				68BD40AA200E870200C8E2B3 /* Setting.swift */,
+				681FF9802010554200D94304 /* SplashScreen.swift */,
+				681FF982201153E300D94304 /* Bonuses.swift */,
+				6834103F201A76DE004FE3B1 /* How.swift */,
 			);
 			path = Bounce;
 			sourceTree = "<group>";
@@ -134,6 +182,42 @@
 			path = BounceUITests;
 			sourceTree = "<group>";
 		};
+		68C7F5B2200AA531005AE82E /* Audios */ = {
+			isa = PBXGroup;
+			children = (
+				6824A487201BF05B001AD3D8 /* bonus2.mp3 */,
+				68341041201AF8EE004FE3B1 /* bonus.mp3 */,
+				68BD40B2200E96C900C8E2B3 /* Begin.mp3 */,
+				68BD40B0200E968300C8E2B3 /* fail.mp3 */,
+				68C7F5BB200BAF4D005AE82E /* Song2.mp3 */,
+				68C7F5B5200AAA5F005AE82E /* song.mp3 */,
+			);
+			path = Audios;
+			sourceTree = "<group>";
+		};
+		C18A0A2F831F7A6E92DCA1F6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9013792FE6F8FB0F8BA94DBB /* Pods-Bounce.debug.xcconfig */,
+				22A59C413A0E3634B4D25EED /* Pods-Bounce.release.xcconfig */,
+				3EC2267D5B535AFE07F99CCE /* Pods-BounceTests.debug.xcconfig */,
+				B0070F119ABEE99DE3B36F55 /* Pods-BounceTests.release.xcconfig */,
+				439BEA9950E5A400BA476BF9 /* Pods-BounceUITests.debug.xcconfig */,
+				D690F44620CE3CAB92F47975 /* Pods-BounceUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DC12E0C037BD00CDF2DD66E6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8CDED890148C9B970EE74B8C /* Pods_Bounce.framework */,
+				FBF671314DDC3E5A9618DBE4 /* Pods_BounceTests.framework */,
+				34F7F1EB32DE9386239A09ED /* Pods_BounceUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -141,9 +225,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 68C7F52720084D12005AE82E /* Build configuration list for PBXNativeTarget "Bounce" */;
 			buildPhases = (
+				1CEDFEC9F267C1A8BBCF2453 /* [CP] Check Pods Manifest.lock */,
 				68C7F4F520084D12005AE82E /* Sources */,
 				68C7F4F620084D12005AE82E /* Frameworks */,
 				68C7F4F720084D12005AE82E /* Resources */,
+				44C1721CC841EFEA11EC1569 /* [CP] Embed Pods Frameworks */,
+				89E087F548D346D5783CA506 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -158,9 +245,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 68C7F52A20084D12005AE82E /* Build configuration list for PBXNativeTarget "BounceTests" */;
 			buildPhases = (
+				7E47EEFA804079B81042DE99 /* [CP] Check Pods Manifest.lock */,
 				68C7F50F20084D12005AE82E /* Sources */,
 				68C7F51020084D12005AE82E /* Frameworks */,
 				68C7F51120084D12005AE82E /* Resources */,
+				26F761825DE1ED86AA9EE3A8 /* [CP] Embed Pods Frameworks */,
+				1A1CC10CA155484E90033764 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -176,9 +266,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 68C7F52D20084D12005AE82E /* Build configuration list for PBXNativeTarget "BounceUITests" */;
 			buildPhases = (
+				5ED6DDEE7056FE270991EEF1 /* [CP] Check Pods Manifest.lock */,
 				68C7F51A20084D12005AE82E /* Sources */,
 				68C7F51B20084D12005AE82E /* Frameworks */,
 				68C7F51C20084D12005AE82E /* Resources */,
+				9A23C55754031D61F6EAFCEA /* [CP] Embed Pods Frameworks */,
+				B5237E59807703ED76D70A6A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -241,11 +334,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				68C7F5BC200BAF4D005AE82E /* Song2.mp3 in Resources */,
 				68C7F50820084D12005AE82E /* Main.storyboard in Resources */,
-				68C7F4FF20084D12005AE82E /* GameScene.sks in Resources */,
+				68BD40B1200E968300C8E2B3 /* fail.mp3 in Resources */,
+				68C7F5A6200869D1005AE82E /* GameScene.sks in Resources */,
 				68C7F50A20084D12005AE82E /* Assets.xcassets in Resources */,
+				6824A488201BF05B001AD3D8 /* bonus2.mp3 in Resources */,
 				68C7F50D20084D12005AE82E /* LaunchScreen.storyboard in Resources */,
-				68C7F50120084D12005AE82E /* Actions.sks in Resources */,
+				68C7F5B6200AAA5F005AE82E /* song.mp3 in Resources */,
+				68BD40B3200E96C900C8E2B3 /* Begin.mp3 in Resources */,
+				68341042201AF8EE004FE3B1 /* bonus.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,13 +363,170 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1A1CC10CA155484E90033764 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BounceTests/Pods-BounceTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1CEDFEC9F267C1A8BBCF2453 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Bounce-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		26F761825DE1ED86AA9EE3A8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BounceTests/Pods-BounceTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		44C1721CC841EFEA11EC1569 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Bounce/Pods-Bounce-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/PCLBlurEffectAlert/PCLBlurEffectAlert.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PCLBlurEffectAlert.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Bounce/Pods-Bounce-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5ED6DDEE7056FE270991EEF1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BounceUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7E47EEFA804079B81042DE99 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BounceTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		89E087F548D346D5783CA506 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Bounce/Pods-Bounce-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9A23C55754031D61F6EAFCEA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BounceUITests/Pods-BounceUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B5237E59807703ED76D70A6A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BounceUITests/Pods-BounceUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		68C7F4F520084D12005AE82E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				68341040201A76DE004FE3B1 /* How.swift in Sources */,
+				681FF983201153E300D94304 /* Bonuses.swift in Sources */,
+				681FF9812010554200D94304 /* SplashScreen.swift in Sources */,
 				68C7F50320084D12005AE82E /* GameScene.swift in Sources */,
+				68C7F5C0200C1133005AE82E /* BlockStatus.swift in Sources */,
+				68C7F5BE200BE131005AE82E /* PlayScene.swift in Sources */,
+				68C7F5A4200863B1005AE82E /*  UIColorExtention.swift in Sources */,
 				68C7F50520084D12005AE82E /* GameViewController.swift in Sources */,
+				68BD40AB200E870200C8E2B3 /* Setting.swift in Sources */,
 				68C7F4FD20084D12005AE82E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -436,6 +691,7 @@
 		};
 		68C7F52820084D12005AE82E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9013792FE6F8FB0F8BA94DBB /* Pods-Bounce.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -445,12 +701,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.FrenchCo.Bounce.Bounce;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		68C7F52920084D12005AE82E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 22A59C413A0E3634B4D25EED /* Pods-Bounce.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -460,12 +717,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.FrenchCo.Bounce.Bounce;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 		68C7F52B20084D12005AE82E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3EC2267D5B535AFE07F99CCE /* Pods-BounceTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -483,6 +741,7 @@
 		};
 		68C7F52C20084D12005AE82E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B0070F119ABEE99DE3B36F55 /* Pods-BounceTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -500,6 +759,7 @@
 		};
 		68C7F52E20084D12005AE82E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 439BEA9950E5A400BA476BF9 /* Pods-BounceUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -516,6 +776,7 @@
 		};
 		68C7F52F20084D12005AE82E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D690F44620CE3CAB92F47975 /* Pods-BounceUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
